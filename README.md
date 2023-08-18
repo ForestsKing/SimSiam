@@ -1,5 +1,11 @@
 # Result
 
+Experiment on Mnist.
+
+- Pretrain: 60,000 unlabeled images for training
+
+- Classify: 60 labeled images for training, 10,000 labeled images for testing
+
 | Index | Encoder | Freeze | Pretrain | Stopgrad |  Acc   |
 | :---: | :-----: | :----: | :------: | :------: | :----: |
 |   1   |    0    |   0    |    0     |    0     | 0.6645 |
